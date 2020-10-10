@@ -16,11 +16,11 @@ return [
     'services' => [
         'cmsVersion' => '2.10.57',
         'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
-        'formcarry' => 'XXXXXXXXXXXX',
+        'disqus' => 'brandonmoonswebsite',
+        'formcarry' => 'MNye4oWZg2',
         'cloudinary' => [
-            'cloudName' => 'artisanstatic',
-            'apiKey' => '365895137117119',
+            'cloudName' => 'df4nwdhdu',
+            'apiKey' => '678398863467994',
         ],
     ],
     'collections' => [
