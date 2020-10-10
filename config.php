@@ -2,16 +2,16 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisanstatic.netlify.app',
+    'baseUrl' => 'https://www.brandonmoon.com',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'Brandon Moon',
+        'description' => 'Personal website of Brandon Moon.',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
-        'twitter' => 'johndoe',
-        'github' => 'johndoe',
+        'name' => 'Brandon Moon',
+        'twitter' => 'brandonbmoon',
+        'github' => 'brandonmoon',
     ],
     'services' => [
         'cmsVersion' => '2.10.57',
