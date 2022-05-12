@@ -22,7 +22,16 @@
         </div>
 
         <input type="text" name="_gotcha" style="display: none;">
+        <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
 
         <input type="submit" name="submit" value="Send">
     </form>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute("6LfPVeUfAAAAAOuLuXnr8-6DHWS6fg32guoEGhgh", {action: "contact"})
+                .then(function(token) { 
+                    document.getElementById('captchaResponse').value = token;
+                }); 
+        });
+    </script>
 @endsection
