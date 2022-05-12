@@ -9,6 +9,7 @@
         {{ !empty($__env->yieldContent('title')) ? ' | ' : '' }}
         {{ $page->site->title }}
     </title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfPVeUfAAAAAOuLuXnr8-6DHWS6fg32guoEGhgh"></script>
 
     @include('_partials.head.favicon')
     @include('_partials.head.meta')
