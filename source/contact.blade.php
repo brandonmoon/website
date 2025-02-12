@@ -27,8 +27,8 @@
         <input type="submit" name="submit" value="Send">
     </form>
     <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute("6LfPVeUfAAAAAOuLuXnr8-6DHWS6fg32guoEGhgh", {action: "contact"})
+        grecaptcha.enterprise.ready(function() {
+            grecaptcha.enterprise.execute("6LfPVeUfAAAAAOuLuXnr8-6DHWS6fg32guoEGhgh", {action: "contact"})
                 .then(function(token) { 
                     document.getElementById('captchaResponse').value = token;
                 }); 
